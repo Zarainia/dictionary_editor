@@ -65,7 +65,7 @@ msix_config:
   publisher_display_name: Valliyv
   identity_name: com.valliyv.dictionary-editor
   msix_version: 1.0.0.0
-  logo_path: icons/colour_wheel.png
+  logo_path: icons/delniit_material_icon.png
   execution_alias: dictionary_editor
   build_windows: false
   certificate_path: windows/cert.pfx
@@ -77,11 +77,11 @@ flutter_icons:
     generate: false
   windows:
     generate: true
-    image_path: "icons/colour_wheel.png"
+    image_path: "icons/delniit_material_icon.png"
     icon_size: 256 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path: "icons/colour_wheel.png"
+    image_path: "icons/delniit_material_icon.png"
 
 flutter_launcher_name:
   name: "Dictionary Editor"

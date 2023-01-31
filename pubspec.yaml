@@ -1,0 +1,87 @@
+name: dictionary_editor
+description: Conlang dictionary editor
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: any
+  intersperse: any
+  flutter_bloc: any
+  sqflite: any
+  sqflite_common_ffi: any
+  shared_preferences: any
+  file_picker: any
+  record: any
+  context_menus: any
+  synchronized: any
+  fast_immutable_collections: any
+  keymap: any
+  super_sliver_list: any
+  draggable_scrollbar:
+    git:
+      url: https://github.com/thielepaul/flutter-draggable-scrollbar.git
+      ref: cfd570035bf393de541d32e9b28808b5d7e602df
+  flutter_improved_scrolling: any
+  visibility_detector: any
+  scroll_to_index: any
+  measured_size: any
+  path_provider: any
+  path: any
+  unified_sounds:
+    git: https://github.com/Zarainia/unified_sounds
+  resizable_panel:
+    git: https://github.com/Zarainia/flutter-resizable-panel
+  zarainia_utils:
+    git: https://github.com/Zarainia/zarainia-utils-dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  import_sorter: any
+  change_app_package_name: any
+  msix: ^3.7.0
+  flutter_launcher_icons: any
+  flutter_launcher_name: any
+  flutter_automation: any
+
+flutter:
+  uses-material-design: true
+
+import_sorter:
+  comments: false
+
+dependency_overrides:
+  yaml: ^3.1.0
+
+msix_config:
+  display_name: Dictionary Editor
+  publisher_display_name: Valliyv
+  identity_name: com.valliyv.dictionary-editor
+  msix_version: 1.0.0.0
+  logo_path: icons/colour_wheel.png
+  execution_alias: dictionary_editor
+  build_windows: false
+  certificate_path: windows/cert.pfx
+
+flutter_icons:
+  android: false
+  ios: false
+  web:
+    generate: false
+  windows:
+    generate: true
+    image_path: "icons/colour_wheel.png"
+    icon_size: 256 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "icons/colour_wheel.png"
+
+flutter_launcher_name:
+  name: "Dictionary Editor"

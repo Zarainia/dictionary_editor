@@ -14,15 +14,16 @@ dependencies:
   collection: any
   intersperse: any
   flutter_bloc: any
-  sqflite: any
-  sqflite_common_ffi: any
+  sqflite: ^2.2.8
+  sqflite_common_ffi: ^2.2.5
   shared_preferences: any
   file_picker: any
   record: any
   context_menus: any
   synchronized: any
   fast_immutable_collections: any
-  keymap: any
+  keymap:
+    git: https://github.com/Zarainia/keymap
   super_sliver_list: any
   draggable_scrollbar:
     git:
@@ -34,6 +35,7 @@ dependencies:
   measured_size: any
   path_provider: any
   path: any
+  inflection2: any
   unified_sounds:
     git: https://github.com/Zarainia/unified_sounds
   resizable_panel:

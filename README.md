@@ -1,16 +1,6 @@
 # dictionary_editor
 
-Conlang dictionary editor
+A dictionary editor app for the [Delniit Dictionary](https://github.com/Zarainia/delniit_dictionary) and similar conlang dictionaries, built with Flutter. Settings are made as generic as possible to allow them to be used for different conlangs (that use an alphabet or similar as their writing system). 
 
-## Getting Started
+![image](https://github.com/Zarainia/dictionary_editor/assets/14959769/eed18afc-e146-46c5-afe2-27660576d74b)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
